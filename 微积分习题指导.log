@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.9)  27 FEB 2024 10:44
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.9)  27 FEB 2024 12:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2414,7 +2414,7 @@ Package logreq Info: Writing requests to '微积分习题指导.run.xml'.
 Here is how much of TeX's memory you used:
  48355 strings out of 476683
  1027603 string characters out of 5798755
- 1956090 words of memory out of 5000000
+ 1956145 words of memory out of 5000000
  67704 multiletter control sequences out of 15000+600000
  529140 words of font info for 133 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
