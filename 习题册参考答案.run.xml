@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>微积分习题指导.bcf</file>
+      <file>习题册参考答案.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>微积分习题指导.bbl</file>
+      <file>习题册参考答案.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -65,19 +65,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>微积分习题指导</infile>
+      <infile>习题册参考答案</infile>
     </cmdline>
     <input>
-      <file>微积分习题指导.bcf</file>
+      <file>习题册参考答案.bcf</file>
     </input>
     <output>
-      <file>微积分习题指导.bbl</file>
+      <file>习题册参考答案.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>微积分习题指导.bbl</file>
+      <file>习题册参考答案.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>微积分习题指导.bcf</file>
+      <file>习题册参考答案.bcf</file>
     </requires>
     <requires type="editable">
       <file>reference.bib</file>

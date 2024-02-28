@@ -58,7 +58,7 @@
 
 
 
-\chapter{定积分的定义及性质}
+\chapter{定积分的概念与性质}
 ~\\
 一、利用定积分的定义计算下列定积分.\\
 
@@ -110,7 +110,7 @@
 	画图可知梯形面积为: $\dfrac{k}{2}(b^2-a^2)+m(b-a)\Rightarrow \mathcal{I}=\dfrac{k}{2}(b^2-a^2)+m(b-a)$.
 \end{solution}
 ~\\
-
+\newpage
 \item 设函数 $f(x)$ 在 $[0,+\infty)$ 上连续且单调增加, $f(0)=0, x=g(y)$ 是其反函数, 试用定积 分的几何意义说明下式成立:
 $$
 \displaystyle\int_0^a f(x) \mathrm{d} x+\int_0^b g(x) \mathrm{d} x \geqslant a b(a>0, b>0) \text {. }\qquad\textcolor{purple}{[Young \text{不等式}]}
@@ -134,7 +134,7 @@ $$
 	\ding{173} 在一般情况下, 设 $$F(a)=\int_0^a f(x) d x+\int_0^b f^{-1}(y) d y-a b.$$则 $F^{\prime}(a)=f(a)-b$, 记 $f(T)=b$, 可知当 $0<a<T$ 时, $F(a)$ 单调减少, 当 $a>T$ 时, $F(a)$ 单调增加, 所以 $F(a)$ 在 $a=T$ 处取到最小值。由上面的讨论, 可知最小值 $F(T)=0$, 从而 $F(a) \geq 0$, 这就是所要证明的.
 	 $\hfill\square$
 \end{proof}
-{\color{purple}作图方法见习题课.}
+{\color{purple}作图方法见习题课.如果暂时看不懂证明也没关系，微积分2期末考试一般是不会考Young不等式的证明，但是习题课还是会讲我们是如何进行分析的. 关于积分不等式的证明我们会单独列一个专题讲解.}
 \end{enumerate}
 
 
@@ -164,13 +164,13 @@ $$
 \begin{enumerate}
 	\item 若 $f(x)$ 是奇函数,则 $\displaystyle\int_{-a}^a f(x) \mathrm{d} x=0$;
 	\item 若 $f(x)$ 是偶函数, 则 $\displaystyle\int_{-a}^a f(x) \mathrm{d} x=2 \displaystyle\int_0^a f(x) \mathrm{d} x$;
-	\item  $\displaystyle\int_a^b f(x) \mathrm{d} x=\int_a^b f(a+b-x) \mathrm{d} x{\color{purple} =\dfrac{1}{2}[\displaystyle\int_a^b f(x) \mathrm{d} x+\int_a^b f(a+b-x) \mathrm{d} x]}$. \quad\textcolor{purple}{[区间再现公式]}
-
+	\item  $\displaystyle\int_a^b f(x) \mathrm{d} x=\int_a^b f(a+b-x) \mathrm{d} x{\color{purple} =\dfrac{1}{2}[\displaystyle\int_a^b f(x) \mathrm{d} x+\int_a^b f(a+b-x) \mathrm{d} x]}$. \quad\textcolor{purple}{[区间再现公式]}\\
+{\color{purple}1和2比较平凡，其中第3个非常重要!习题课将会作为专题讲解！}
 \end{enumerate}
+
+
+\newpage
 ~\\
-
-
-
 五、利用定积分的定义证明以下性质.\\
 
 $\displaystyle\int_a^b k f(x) \mathrm{d} x=k \int_a^b f(x) \mathrm{d} x(k \text { 是常数). } $\\
@@ -196,7 +196,11 @@ $$
 \ding{172} 取 $x_i \displaystyle\in Q . \quad D\left(x_i\right)=1 . \quad I=\lim _{n \rightarrow \infty} \frac{b-a}{n} \cdot n=b-a>0$.\\
 \ding{173} 取 $x_i \displaystyle\notin Q . \quad D\left(x_i\right)=0 . \quad I=\lim _{n \rightarrow \infty} \frac{b-a}{n} \cdot 0=0$.\\
 与假设矛盾，故不存在.
-~\\
+
+\begin{remark}
+	\color{blue} 这说明 Dirichlet 函数不是 Riemann 可积的，因为其在区间 $[a,b]$ 上任何一点都不连续，间断点的测度为大于零，故不可积，学有余力的同学可以去知乎上搜一下黎曼可积与勒贝格可积. 当然这个跟我们微积分2期末考试没有任何关系哈！
+\end{remark}
+
 \end{solution}
 ~\\
 七、估计下列定积分的值.\\
@@ -217,6 +221,29 @@ $$
 	$\text { 故 } \dfrac{1}{4} \cdot e^{-\frac{1}{e}} \leqslant \displaystyle\int_{\frac{1}{4}}^{\frac{1}{2}} x^x d x \leqslant \frac{\sqrt{2}}{8}.$
 \end{solution}
 \end{enumerate}
+
+
+
+~\\
+八、证明下列不等式.\\
+\begin{enumerate}
+\item  $\displaystyle\dfrac{\pi}{12} \leqslant \int_{\frac{\pi}{4}}^{\frac{\pi}{3}} \tan x \mathrm{~d} x \leqslant \frac{\pi}{12} \sqrt{3}$;\\
+\begin{proof}
+	当 $x\displaystyle \in\left[\frac{\pi}{4}, \frac{\pi}{3}\right]$ 时, $\tan x \in[1, \sqrt{3}]$.
+	因此：$\displaystyle\frac{\pi}{12} \leq \int_{\frac{\pi}{4}}^{\frac{\pi}{3}} \tan x d x \leq \frac{\pi}{12} \sqrt{3}$.$\hfill\square$
+\end{proof}
+
+
+\item  $\dfrac{1}{2} \leqslant \displaystyle\int_{\frac{\pi}{4}}^{\frac{\pi}{2}} \frac{\sin x}{x} \mathrm{~d} x \leqslant \frac{\sqrt{2}}{2} .$ \\
+\end{enumerate}
+
+\begin{proof}
+$\text { 当 } x \displaystyle\in\left[\frac{\pi}{4}, \frac{\pi}{2}\right] \text { 时， } \frac{\sin x}{x} \in\left[\frac{2}{\pi}, \frac{2 \sqrt{2}}{\pi}\right] $.\quad
+$\text { 故 } \dfrac{\pi}{4} \cdot \dfrac{2}{\pi} \leq \displaystyle\int_{\frac{\pi}{4}}^{\frac{\pi}{2}} \frac{\sin x}{x} d x \leq \frac{2 \sqrt{2}}{\pi} \cdot \frac{\pi}{4}.$得证.$\hfill\square$
+~\\
+\end{proof}
+
+
 ~\\
 九、比较下列各对定积分的大小.\\
 \begin{enumerate}
@@ -240,20 +267,21 @@ $$
 \item $\displaystyle\int_{0}^{\frac{\pi}{2}x}\sin(\sin x) dx$与$\displaystyle\int_{0}^{\frac{\pi}{2}x}\cos(\sin x) dx$.
 
 \begin{solution}\\
-	Solution 1.
+{\color{blue}Solution 1.}
 	注意到 $(\forall x>0) \sin x<x$, 以及 $\cos x$ 在 $[0, \pi / 2]$ 上递减，于是 $\sin \cos x<\cos x<\cos \sin x$. 所以
 	$$
 	\int_0^{\frac{\pi}{2}} \sin \sin x \mathrm{~d} x=\int_0^{\frac{\pi}{2}} \sin \cos x \mathrm{~d} x<\int_0^{\frac{\pi}{2}} \cos \sin x \mathrm{~d} x.
 	$$
-	Solution 2.
+	{\color{blue}Solution 2.}
 	$$
 	\begin{aligned}
-		& \int_0^{\frac{\pi}{2}} \cos \sin x \mathrm{~d} x=\int_0^{\frac{\pi}{2}} \cos \cos x \mathrm{~d} x=\int_0^1 \frac{\cos x}{\sqrt{1-x^2}} \mathrm{~d} x>\int_0^1. \frac{1-\frac{x^2}{2}}{\sqrt{1-x^2}} \mathrm{~d} x=\frac{3 \pi}{8}>1, \\
+		& \int_0^{\frac{\pi}{2}} \cos \sin x \mathrm{~d} x=\int_0^{\frac{\pi}{2}} \cos \cos x \mathrm{~d} x=\int_0^1 \frac{\cos x}{\sqrt{1-x^2}} \mathrm{~d} x>\int_0^1 \frac{1-\frac{x^2}{2}}{\sqrt{1-x^2}} \mathrm{~d} x=\frac{3 \pi}{8}>1, \\
 		& \int_0^{\frac{\pi}{2}} \sin \sin x \mathrm{~d} x=\int_0^1 \frac{\sin x}{\sqrt{1-x^2}} \mathrm{~d} x<\int_0^1 \frac{x}{\sqrt{1-x^2}} \mathrm{~d} x=1.
 	\end{aligned}
 	$$
-		Solution 3 .其实画图也可以，这里不好画，习题课上讲！
+		{\color{blue}Solution 3.} 其实画图也可以，这里不好画，习题课上讲！
 \end{solution}
+~\\
 \item $\displaystyle\int_{0}^{\pi}e^{-x^2} dx$与$\displaystyle\int_{\pi}^{2\pi}e^{-x^2}dx  $.
 \begin{solution}
 	$f(x)=e^{-x^2}$在$R$上单调递减，利用定积分的几何意义易知：$\displaystyle\int_{0}^{\pi}e^{-x^2} dx>\displaystyle\int_{\pi}^{2\pi}e^{-x^2}dx.$
@@ -268,8 +296,9 @@ $$
 	~\\
 \end{enumerate}
 \begin{proof}
-	1. 由连续性. $\exists x=c$ 的小邻域： $[c-\delta, c+\delta]$. S.t. $f(x) \geqslant \dfrac{1}{2} f(c)>0$. 又 在 $x \in[a, b] $上$, f(x) \geqslant 0$.\\
-	故$\displaystyle\int_a^b f(x) d x \geqslant \int_{c-\delta}^{c+\delta} f(x) d x \geqslant 2 \delta \cdot \frac{1}{2} f(c)=\delta \cdot \delta(c)>0$. 故得证.$\hfill\square$
+	1. 由连续性. $\exists x=c$ 的小邻域： $[c-\delta, c+\delta]$. s.t. $f(x) \geqslant \dfrac{1}{2} f(c)>0$. 又 在 $x \in[a, b] $上$, f(x) \geqslant 0$.\\
+	
+	\qquad 故$\displaystyle\int_a^b f(x) d x \geqslant \int_{c-\delta}^{c+\delta} f(x) d x \geqslant 2 \delta \cdot \frac{1}{2} f(c)=\delta \cdot \delta(c)>0$. 故得证.$\hfill\square$
 \end{proof}
 \begin{proof}2.
 	设 $F(x)=f(x)-g(x)$. 故 $F(x)$ 连续. 由第1问的证明可得：$\displaystyle\int_a^b F(x) d x>0$. 故
@@ -293,11 +322,12 @@ C. 存在原函数\qquad
 D. 可积\\
 
 
+
 \item 下列函数中,在区间 $[-1,3]$ 上不可积的是 (D).\\
 A. $f(x)=\left\{\begin{array}{l}3,-1<x<3, \\ 0, x=-1, x=3\end{array}\right.$\quad
 B. $f(x)=[x]$\quad
 C. $f(x)=\left\{\begin{array}{l}\dfrac{\sin x}{x}, x \neq 0, \\ 1, x=0\end{array}\right.$\quad
-D. $f(x)=\left\{\begin{array}{l}\mathrm{e}^{\frac{1}{2}}, x \neq 0, \\ 1, x=0\end{array}\right.$\\
+D. $f(x)=\left\{\begin{array}{l}\mathrm{e}^{\frac{1}{x}}, x \neq 0, \\ 1, x=0\end{array}\right.$\\
 \end{enumerate}
 
 ~\\
@@ -311,10 +341,44 @@ D. $f(x)=\left\{\begin{array}{l}\mathrm{e}^{\frac{1}{2}}, x \neq 0, \\ 1, x=0\en
 
 ~\\
 十三、设函数 $f(x)$ 连续,求 $\lim\limits _{h \rightarrow 0} \dfrac{1}{h} \displaystyle\int_a^{a+h} f(x) \mathrm{d} x$.\\
-\begin{solution}
-	 原式$=\lim\limits _{h \rightarrow 0} \dfrac{1}{h} \displaystyle\int_a^{a+h} f(x) d x $
-	$=\lim\limits_{h \rightarrow 0} \dfrac{1}{h} \cdot hf(\xi).\quad(a \leqslant \xi \leqslant a+h) $
-	$=\lim\limits _{\xi\rightarrow a} f(\xi)=  f(a).$
+\begin{solution}	 
+	 \begin{align*}
+	 	\text{原式}&=\lim\limits _{h \rightarrow 0} \dfrac{1}{h} \displaystyle\int_a^{a+h} f(x) d x \\
+	 	&=\lim\limits_{h \rightarrow 0} \dfrac{1}{h} \cdot hf(\xi)\quad(a \leqslant \xi \leqslant a+h)\\
+	 	&=\lim\limits _{\xi\rightarrow a} f(\xi)\\
+	 	&=  f(a).
+	 \end{align*}
 \end{solution}
+
+
+
+
+
+
+
+\chapter{微积分基本公式}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \end{document}

@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.9)  27 FEB 2024 12:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.9)  29 FEB 2024 00:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**微积分习题指导.tex
-(./微积分习题指导.tex
+**习题册参考答案.tex
+(./习题册参考答案.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (./elegantbook.cls
 Document Class: elegantbook 2022/12/31 v4.5 ElegantBook document class
@@ -1984,8 +1984,8 @@ Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (SimSun(0)).
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-(./微积分习题指导.aux)
-\openout1 = `微积分习题指导.aux'.
+(./习题册参考答案.aux)
+\openout1 = `习题册参考答案.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 39.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
@@ -2037,9 +2037,9 @@ File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 LaTeX Font Info:    ... okay on input line 39.
 Package hyperref Info: Link coloring ON on input line 39.
 
-(./微积分习题指导.out) (./微积分习题指导.out)
+(./习题册参考答案.out) (./习题册参考答案.out)
 \@outlinefile=\write8
-\openout8 = `微积分习题指导.out'.
+\openout8 = `习题册参考答案.out'.
 
 
 *geometry* driver: auto-detecting
@@ -2107,11 +2107,11 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout5 = `微积分习题指导.bcf'.
+\openout5 = `习题册参考答案.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '微积分习题指导.bbl' found.
- (./微积分习题指导.bbl)
+Package biblatex Info: ... file '习题册参考答案.bbl' found.
+ (./习题册参考答案.bbl)
 Package biblatex Info: Reference section=0 on input line 39.
 Package biblatex Info: Reference segment=0 on input line 39.
 \c@lstlisting=\count563
@@ -2224,9 +2224,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
 
 
-] (./微积分习题指导.toc)
+] (./习题册参考答案.toc)
 \tf@toc=\write9
-\openout9 = `微积分习题指导.toc'.
+\openout9 = `习题册参考答案.toc'.
 
  [2
 
@@ -2285,17 +2285,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--165
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-
- []
-
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
@@ -2311,37 +2306,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--193
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--200
+LaTeX Font Warning: Font shape `TU/KaiTi(0)/b/n' undefined
+(Font)              using `TU/KaiTi(0)/m/n' instead on input line 200.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--203
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
+Underfull \hbox (badness 10000) in paragraph at lines 227--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--223
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--227
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 240--244
 
  []
 
 
-Overfull \hbox (5.90132pt too wide) in paragraph at lines 230--233
+Underfull \hbox (badness 10000) in paragraph at lines 247--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
+
+ []
+
+
+Overfull \hbox (5.90132pt too wide) in paragraph at lines 257--260
 []\TU/楷体(0)/b/n/10 解[] $[]\OML/ntxmi/m/it/10 x \LMS/ntxsy/m/n/10 2 »\OT1/ntxtlf
 /m/n/10 1\OML/ntxmi/m/it/10 ; \OT1/ntxtlf/m/n/10 2\LMS/ntxsy/m/n/10 ¼[][] \U/ms
 a/m/n/10 > [][][] 6 [][][] > [] > \OT1/ntxtlf/m/n/10 0\OML/ntxmi/m/it/10 :$ \TU
@@ -2349,75 +2363,92 @@ a/m/n/10 > [][][] 6 [][][] > [] > \OT1/ntxtlf/m/n/10 0\OML/ntxmi/m/it/10 :$ \TU
 /ntxmi/m/it/10 dx:$ 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--288
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--288
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--294
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--301
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--305
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--310
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 307--310
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 312--314
+Underfull \hbox (badness 10000) in paragraph at lines 311--317
 
  []
 
-[5] (./微积分习题指导.aux)
-Package rerunfilecheck Info: File `微积分习题指导.out' has not changed.
-(rerunfilecheck)             Checksum: 051D388625CE9C6C2264CACCC23AB3EF;146.
-Package logreq Info: Writing requests to '微积分习题指导.run.xml'.
-\openout1 = `微积分习题指导.run.xml'.
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--323
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--335
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
+
+ []
+
+[5]
+Chapter 2.
+[6
+
+] (./习题册参考答案.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `习题册参考答案.out' has not changed.
+(rerunfilecheck)             Checksum: BC73B7877581365B81F7073BC16E3942;276.
+Package logreq Info: Writing requests to '习题册参考答案.run.xml'.
+\openout1 = `习题册参考答案.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48355 strings out of 476683
- 1027603 string characters out of 5798755
- 1956145 words of memory out of 5000000
- 67704 multiletter control sequences out of 15000+600000
- 529140 words of font info for 133 fonts, out of 8000000 for 9000
+ 48388 strings out of 476683
+ 1029355 string characters out of 5798755
+ 1959294 words of memory out of 5000000
+ 67735 multiletter control sequences out of 15000+600000
+ 529156 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  103i,16n,136p,680b,889s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 微积分习题指导.pdf (8 pages).
+Output written on 习题册参考答案.pdf (9 pages).
